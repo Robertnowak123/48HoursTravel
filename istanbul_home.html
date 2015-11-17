@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,800,700,600,500' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <link rel="stylesheet" href="istanbul.css">
+    <script src="Top_Cities_Istanbul.js"></script>
+  </head>
+
+  <body>
+  <!--navbar-->
+    <div class="navbar">
+      <div class="hamburgermenu_li">
+        <img id="hamburgermenu" src="hamburgermenu.png" alt="Menu" style="width:60px;height:60px;">
+
+        <!-- start nav bar animation -->
+<!--         <div id="nav-icon2">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> -->
+
+<!-- end nav bar animation -->
+
+      </div>
+      <div id="normalmenu">
+        <ul id="normalmenu_ul">
+          <div class="slidemenu">
+            <li class="normalmenu_li">
+              <p class="normalmenu_text">
+                <b>
+                  <a href="#attraction1">Hagia Sophia</a>   
+                <b>
+              </p>
+            </li>
+            <li class="normalmenu_li">
+              <p class="normalmenu_text">
+                <b>
+                  <a href="#attraction2">Blue Mosque</a>
+                </b>
+              </p>
+            </li>
+            <li class="normalmenu_li">
+              <p class="normalmenu_text">
+                <b>
+                  <a href="#attraction3">Topaki Palace</a>
+                </b>
+              </p>
+            </li>
+            <li class="normalmenu_li">
+              <p class="normalmenu_text">
+                <b>
+                  <a href="#attraction4">Bosphorous Cruise</a>
+                </b>
+              </p>
+            </li>
+             <li class="normalmenu_li">
+              <p class="normalmenu_text">
+                <b>
+                  <a href="#attraction5">Basilica Cistern</a>
+                </b>
+              </p>
+            </li>
+          </div>  
+        </ul>
+      </div>  
+    </div>
+    <!--end navbar-->
+    <div class="container-fluid">
+      <div class="title">
+        <h3 id="subtitle">What to do with <span id="hours">48 hours</span> in</h3>
+        <h1 id="istanbul">ISTANBUL</h1>
+      </div>
+      <!-- Begin Bootstrap Image Carousel -->
+      <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/hagiasophia.jpg" alt="HagiaSophia">
+            <div class="carousel-caption">
+              <h3>The Hagia Sophia</h3>
+              <p>One of the oldest and largest buildings in the world, the Hagia Sophia, influenced by both Islamic and Christian culture, is our first stop in Istanbul. <a href="#hagiasophia" class="learnmore">Learn More.</a></p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/bluemosque.jpg" alt="BlueMosque">
+            <div class="carousel-caption">
+              <h3>The Blue Mosque</h3>
+              <p>Opposite of the Hagia Sophia, the Blue Mosque provides free entry to the public. Don't forget to take off your shoes!</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/galatatower.jpg" alt="GalataTower">
+            <div class="carousel-caption">
+              <h3>Galata Tower</h3>
+              <p>The only thing more stunning than the view OF the Galata Tower is the view FROM the Galata Tower. Go early to avoid the long line.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/topakipalace.jpg" alt="TopakiPalace">
+            <div class="carousel-caption">
+              <h3>Topaki Palace</h3>
+              <p>Find religious artifacts, jewels, weaponry, clocks, and other treasures from the Islamic world inside the palace.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/dinnercruise.jpg" alt="DinnerCruise">
+            <div class="carousel-caption">
+              <h3>Bosphorous Cruise</h3>
+              <p>Why eat in a restaurant when you can eat on the Bosphorous River and enjoy stunning views of Istanbul's coastline at night.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div> <!--end container for carousel-->
+
+<!-- Start of Main Content -->
+
+  <div class="container">
+    <div class="row" id="attraction1">
+      <h2 class="subtitle" align="center">The Hagia Sophia</h2>
+      <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-12" class="image-content" width="280px">
+        <img src="https://lh3.googleusercontent.com/HXkxf7cfhfxUU4uTwrkaa_GeBBIHdTRrq0pTSl8D5MaObG-glyToApIF-IX3sOvL56qq7HLEiF5-G9Fr-Q_-w9uaaClU2KAYsmrczKpOlhHug6LlkBNZDWE0m-JEqb0HedwFc8Thagp-tO6qRtDuVgoUyR1WIMqfdCRBrk2CgSGCzEfM-inOoNLFb9iYP3uckr215dqurzPvBDbOX0cyWrdNdkEsgu_KN20wzPKuOJ3i-jOD10rIW1labPxqu3bcTS8UNEA9Xo5By3NWp2X6JkixOUp9QU1Q_SvgQZFepvO90Ax3CgV2sAzO6Y_uORd_dPjqeaxJv1bNbABhnHA4mSWa4HyXDVuWnM2g7G3ApSEN-Yi3MiD4RJ0DAJOfkOj6sI0p4gq6UrZyHyFPBMpPeTN1a2zQyQqjv4eFDjwmDpZZbi6F5d8gTvbN_SuJRMq9hCRUWORo1AgAUQi9w5FfJCBkgyXZNLBiBgZIVo60yVVFf6TR0ApbLlfgdl-AXyvrK_1T2XL4-FzAbR-tLnZE0a89CKmbxVkLw3gSBU4FVr8=w438-h657-no">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>History</h3>
+        <p>
+          Originally a Christian temple, the Hagia Sophia was transformed into a mosque when the Sultan of the Ottoman Empire, Mehmet II, conquered Constantinople (now modern day Istanbul) in 1453.
+        </p>
+        <p>
+          The Hagia Sophia was restored several times: once in 1739 during the reign of Mahmoud I and in 1740 to create the foundation for ablutions. There is continued restoration today.
+        </p>
+        <p>
+          When the Turkish republic was founded in 1934, the mosque was transformed into a museum.
+        </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <h4>Did you know?</h4>
+        <p>
+          The Hagia Sophia has the second largest dome in the world, after the Parthenon in Rome.
+        </p>
+        <br>
+        <button>
+          <a class="external_website_link" href="http://ayasofyamuzesi.gov.tr/en" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+    </div>
+    
+    <div class="row" id="attraction2">
+      <h2 class="subtitle" align="center">The Blue Mosque</h2>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>What to Expect</h3>
+        <p>
+          Just across from the Hagia Sophia is another magnificent mosque (although we're not quite sure why they call it the "blue" mosque as it is neither really blue from the outside or inside) with finely decorated dome.
+        </p>
+        <p>
+          Unlike the Hagia Sophia, the Blue Mosque is free to the public, and thousands of worshippers visit it on a daily basis. You can't miss the sound of its call to prayer every afternoon.
+        </p>
+        <p>
+          Men and women must enter separately, and there is a completely different entrance for tourists. Ladies, don't forget to bring your head scarves. If you did forget your favorite shawl at home today, no worries - the mosque provides hospital-blue scarves free of charge.
+        </p>
+        <p>
+          As a final tip, you might want to also bring some shoe deoderant as the tourist entrance of the mosque gets pretty smelly, as all visitors must take off their shoes before entering.
+        </p>
+        <br>
+        <button>
+          <a class="external_website_link" href="http://www.bluemosque.co/" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="image-content">
+        <img src="https://lh3.googleusercontent.com/goIt4xAbDE4wHZriQ7l1dajBV61pRSshpePbexcYII-Def4AEEaEgcFGTiFc3W91TvLBFqU3oYgHqS1HnqoAzMWSF3SKlP_BQtWmtY-jPiyCWFqWkxMwUevetGQWxpm12a-cfCTJmtMw89YxSKzwkj2ALZDVStGd66rIN1t2m9iQgLRuNmhad1j1mpLwYRXryzN_W_YkwUuM4NvWMU74kRjYzNn8kK2sNgivrKm6Qv1k2wLGCIRNCKlW3npwKg7Gts-4d0R7DLHteWkzw_4k0Zc_TkR5izJmYMxpyyJ_AUY21VMz1mhGx-Y1t63KYOz8kL8IvSgrBIoIrR-14wirimakGiXvIGdNV5a_sYVosqrM06OCL88lM4EVUfrC84KbWc0SQ6lTVDlA4KhU34jCbJwF5ppyK60AeCQljlJL_le3xARztNAuDQDDdLaMl0dFEeeq9yvBNmlBqKRoOBXvdrIAALa6y6xj7cIdWBGSacez9c91WjreQQG93TJlL-h5XRYzplUJRJr3fMoHJMw8onnuvrb1RU5Mpch2EzpuzHo=w986-h657-no">
+      </div>
+    
+    <div class="row" id="attraction3">
+      <h2 class="subtitle" align="center">Topaki Palace</h2>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="image-content">
+        <img src="https://lh3.googleusercontent.com/jD6xeQmCcQWLCbgbMMGLzMZtUR3f6qiZDtqV88yx8oU2ONJWXjNyhhT56mbvh-AkTucafnWTWLLHoY5xc8WOYt30PDDx8-uulRS019dEQHazz1fohtYWtzPkky-BwKX5qDqR-ya1NRpbhG6XUUwEPwozZyYgHzepd4C7ejw2_8FPp7-nh_I1wR3e4AxQBai7kdIXqPwZ-THxvEoalTJUNpHbAwChdGkjyhaYURJxuLtq1buCCwiFKOydvFikkTplvlTNTjeQKMqVjyHSg6EuLOi8LCnwXpkCe2kbErDrWrv3aySf6tS5lnyyBxB5kcbvWGwnoqKb_AoLOO0YP0WQc27wBcNHjjD5Juh04Yf8AA1zvMYHC-zeonPGrEAOKYgSThFe6ZFIi-mKB_RX65SGRgER6o9-FNSiwLFE1HzRSWk_oKuD0bpDBFE3x6YXh13bUUrzqRQdoKWEtXmb20Q7uG4VGRMaxONPiji-sJfXYYXYgGNnBlgwVbNrCs6bHMTyRks0gmOKPDFDVdw865uGTM6WtQX-26guot3owFhRvtQ=w986-h657-no">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>About Your Visit</h3>
+        <p>
+          Another interesting place to visit is the Topaki Palace, the former residency of the Ottoman sultans for many centuries. Definitely worth a visit as it not only teaches about Turkish history, but also makes for a relaxed walk inside a park-like area.
+        </p>
+        <p> 
+          A few tipps: 
+        </p>
+        <ul>
+          <li class="main_categories">
+              Beat the lines and get to the Palace early. It is recommended to arrive at the location by 10am.
+          </li>
+          <li class="main_categories">
+              Make your way to the end of the Palace where you can enjoy beautiful views of Istanbul (inculding the famous Galata Tower) and the Bosporus.
+          </li>
+        </ul> 
+        <p>
+          If you have extra time, you can visit the <a class="external_website_link" href="http://www.istanbularkeoloji.gov.tr/main_page" target="_blank">Archealogical Museum</a> or hang out in <a class="external_website_link">Gulhane Park</a>.  
+        </p>
+        <p>
+          Some more stuff about the Topaki Palace.
+        <p> 
+        <br>
+        <button>
+          <a class="external_website_link" href="http://topkapisarayi.gov.tr/en" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+  </div>
+
+<div class="row" id="attraction2">
+      <h2 class="subtitle" align="center">The Galata Tower</h2>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>What to Expect</h3>
+        <p>
+          As one of the most distinctive buildings in Istanbul, the Galata Tower has been depicted in numerous paintings and pictures as a main landmark and can be seen form all across Instanbul. It is a medieval stone tower located in the Karakoey quarter.
+        </p>
+        <p>
+         The Galata Tower is located on a slight elevation, but the walk up there is well worth it: You will pass by cute speciality and handicraft stores that might serve you well for a small sourvenir to take back home.
+        </p>
+        <p>
+          Of course, it is possible to climb Galata Tower and take advantage of a magnificent view over all Istanbul. But be aware that lines are usually quite long (at least a 30min wait) and tickets expensive relative to other sights. Therefore, don't sweat it if you choose not to hike up Galata Tower :).
+        </p>
+        <br>
+        <button>
+          <a class="external_website_link" href="http://www.lonelyplanet.com/turkey/istanbul/sights/architecture/galata-tower" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="image-content">
+        <img src="img/galatatower2.jpg" alt="Galata Tower" style="width:600px;height:400px;">
+      </div>
+
+      <div class="row" id="attraction5">
+      <h2 class="subtitle" align="center">Bosphorus Cruise</h2>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="image-content">
+        <img src="img/bosporuscruise.jpg" target="_blank" style="width:600px;height;400px">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>About Your Visit</h3>
+        <p>
+          Definitely a "Must-Do" whether you visit in Summer or Winter: A Bosporus cruise is one of the most entertaining and most efficient ways to experience Turkish culture.
+        </p>
+        <p>
+          There are many cruise companies that offer a fantastic program including three-course menus, multiple dance events, belly dancers and cultural shows - essentially, great value for money. And in addition, you can also enjoy a nice boat ride on the border between Europe and Asia.
+        </p>
+        <br>
+        <button>
+          <a class="external_website_link" href="https://www.vigotour.com/en/daily-tours-activities/istanbul-things-to-see-half-day-bosphorus-cruise-79.html" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+  </div>
+
+  <div class="row" id="attraction6">
+      <h2 class="subtitle" align="center">The Basilica Cistern</h2>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="content-description">
+        <h3>What to Expect</h3>
+        <p>
+          One of the coolest things to see in Istanbul, the Basilica Cicstern was built during the Roman emperor Justitian's rule and lies c. 500 feet (150m) below the city of Istanbul (formerly Constantinople). What looks like a scene from a Roman mythology book, is actually a real underwater temple-like structure filled with water. 
+        </p>
+        <p>
+          While this can already give an eery feeling, there is more to the mythological flair: deep inside the cictern, you can find two Medusa heads, one tilted sideways, and the other turned upside down. Why these heads were constructed this way remains a mystery until today.
+        </p>
+        <br>
+        <button>
+          <a class="external_website_link" href="http://yerebatansarnici.com/" target="_blank">
+            Visit Website
+          </a>
+        </button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" class="image-content">
+        <img src="https://lh3.googleusercontent.com/cVhkwiyG6JFybOnN2lA2E9OuZbsEctia-9sZD88TbAhYr3RRXKOtQzxp17Ntkp2U04sqzh30IcvR1YsXW7YQcfe4vO3p5YMhpkKOGRgL-WpB842bAPkf86NGGbr0dlkr7XBJ8VDKsgEFfMxyNki8ZBI9s3q-7wsJAkHDnkJmWVHwEUSPGRlrNu3JDYzt9cNtlTKl3hUtC4JlRYL24GbQD6sLoUPcLjXJJTMuvfCwucnGLIaNlOqkpXR73r3cPY1gxhuCJlZ1UYqYkUPb5ONRJd__osA2WPxPlJh0W4QNvUaQVGuYfC5RZWV2c46z8r6BTVEygeMRNsSvUhy9klIi_iEvm50yZr-gTFYQ6aquXa2TvXiFX9DtUa3NnsD31seCvQO4UgaGQzWMXtWP84wCP9oVh1HIOmnald01MCs9pvJsiEjEoAYxg3VDgJIAQhn3ubZ4j_jmKoSSoukRx64csHxuQ7UcwKO5td_sZqgFb2ICT45ybvCPfXML5e4JXXno7XCEaXSIT5QGWh_GWZLyIoy5oBnM12ufvk8dB9hFo4s=w1051-h700-no" style="width:600px;height:400px;">
+      </div>
+
+<!-- End of Main Content -->
+
+    
+    <!--scripts-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+

@@ -1,6 +1,7 @@
 $( document ).ready(function() {
+  $('.slidemenu').hide();
 	$("#hamburgermenu").click(function() {
-  		$(".slidemenu").toggle("fast");
+		$(".slidemenu").toggle("fast");
 	});
 	
 	$("#hamburgermenu").hover(function(){
@@ -8,6 +9,9 @@ $( document ).ready(function() {
 	}, function(){
 		$(".hamburgermenu_li").css("background-color", "white");
 
+  // $('#nav-icon2').click(function() {
+  //   $(this).toggleClass('open');
+  //   });
 	});
 });
 
